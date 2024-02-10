@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stu Mini Project 2</title>
+</head>
+<body>
+    <header>
+        <h1>CSS Snippet Cheatsheet</h1>
+        <p>Ever have trouble recalling the exact syntax for your favourite CSS code?Give it a permanent home and add it to this page! Select<br> any snippet below and it'll automatically select all of the code for you to copy.</p>
+    </header>
+    
+    <main>
+    <section class="first-box">
+        <div id="flexbox-row">
+            <h2>Flexbox Row</h2>
+            <p>Use these three properties to create a flexbox row layout.</p>
+            <div id="flexbox-inside">
+                <p>
+                    .row {<br>
+                      display:flex;<br>
+                      flex-direction: row;<br>
+                      flex-wrap: wrap;
+                    <br>}  
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="second-box">
+        <div id="flexbox-column">
+            <h2>Flexbox Column</h2>
+            <p>Use this to create a Flexbox column layout.</p>
+            <div id="flexbox-column-inside">
+                <p>
+                    .column {<br>
+                      display:flex;<br>
+                      flex-direction: column;<br>
+                    }  
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="third-box">
+        <div id="css-grid">
+            <h2>CSS Grid Layout</h2>
+            <p>Build a 12-column layoutusing CSS Grid.</p>
+            <div id="css-grid-inside">
+                <p>
+                    .grid {<br>
+                      display:grid;<br>
+                      width:100%;<br>
+                      grid-template-columns:<br>
+                    repeat(12, 1fr)<br>  
+                    }  
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="forth-box">
+        <div id="linear-gradient">
+            <h2>Linear Gradients</h2>
+            <p>This will create a background linear gradient from top to bottom.</p>
+            <div id="linear-gradient-inside">
+                <p>
+                    .linear-gradient-background {<br>
+                      background-image:linear-<br>
+                      gradient(<br>
+                      rgba(232, 102, 236, 0.3) 0%,<br>
+                      rgba(232, 102, 236, 0.6)100%;<br>
+                      );<br>
+                    }  
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="fifth-box">
+        <div id="box-transition">
+            <h2>Box-Transition-glow</h2>
+            <p>Use transition and box shadows to glow on hover.</p>
+            <div id="box-transition-inside">
+                <p>
+                    .code-card .card-header {<br>
+                      border-radius: 8px;<br>
+                      transition: all 0.5s ease-in-<br>
+                      out:<br>
+                    }<br>
+                      .code-card:hover,<br>
+                      .code-card:hover .card-header {<br>
+                      box-shadow: inset 0px 0px 8px<br>
+                      rgba(232, 102, 236, 1), 0 0 15px<br>
+                      rgba(232, 102, 236, 1);<br>
+                      } <br> 
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sixth-box">
+        <div id="overlay-card">
+            <h2>Overlay Card with Title</h2>
+            <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+            <div id="overlay-card-inside">
+                <p>
+                    .card-header {<br>
+                     position:relative;<br>
+                     margin-top: -20px;<br>
+                    }  
+                </p>
+
+            </div>
+        </div>
+    </section>
+</main>
+<footer> Made by Juju with &#10084 </footer>
+</body>
+</html>
